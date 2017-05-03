@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
-    <iconback img1="iconback" />
-	<iconmask img1="iconmask" />
-    <iconupon img1="iconupon" />
-    <scale factor=".75" />
+    <!-- Take components from https://github.com/materialos/Android-Icon-Pack/blob/master/app/src/main/res/xml/appfilter.xml -->
 
     <!-- Browser -->
-	<item component="ComponentInfo{com.android.browser/com.android.browser.BrowserActivity}" drawable="browser_chrome" banner="true" />
-    <item component="ComponentInfo{com.google.android.browser/com.android.browser.BrowserActivity}" drawable="browser_chrome" banner="true" />
+	<item component="ComponentInfo{com.android.browser/com.android.browser.BrowserActivity}" drawable="banner_chrome" banner="true" />
+    <item component="ComponentInfo{com.google.android.browser/com.android.browser.BrowserActivity}" drawable="banner_chrome" banner="true" />
+
+    <!-- Chrome Beta -->
+    <item component="ComponentInfo{org.chromium.chrome/org.google.android.apps.chrome.Main}" drawable="banner_chrome" banner="true" />
+    <item component="ComponentInfo{com.chrome.beta/com.google.android.apps.chrome.Main}" drawable="banner_chrome" banner="true" />
+    <item component="ComponentInfo{com.chrome.dev/com.google.android.apps.chrome.Main}" drawable="banner_chrome" banner="true" />
+
+    <!-- Firefox -->
+    <item component="ComponentInfo{org.mozilla.firefox_beta/org.mozilla.firefox_beta.App}" drawable="banner_firefox" banner="true"  />
+    <item component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.App}" drawable="banner_firefox" banner="true"  />
 </resources>
