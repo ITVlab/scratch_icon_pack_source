@@ -7,7 +7,7 @@
     <!-- This (optional) link will appear at the end of the theme description -->
     <string name="developer_link">http://androidtv.news</string>
     <string name="theme_description">"Sample Icon Pack.\n\nThis icon pack intends to make your device's launcher more intuitive and beautiful by applying custom icons. It is free and will always be. If you want to thank me and support my work, go to the XDA link and Thank me there :). \n\nEmail: jamal.areeb@gmail.com"</string>
-    <string name="demo_explanation">"This is a banner pack for Android TV. Using the app Tv App Repo, one can create shortcuts to apps with custom icons or banners. This is an open source set of banners to help icon pack artists get started with TVs."</string>
+    <string name="demo_explanation">"This is a banner pack for Android TV. Using the app Tv App Repo, one can create shortcuts to apps with custom icons or banners. This is an open source set of banners to help icon pack artists get started with TVs.\n\nBased on the open source project by Jamal Areeb.\n\nVisit github.com/itvlab/scratch_icon_pack_source to view how we did it."</string>
 
 
     <!-- The feature graphic will appear above the theme description -->
