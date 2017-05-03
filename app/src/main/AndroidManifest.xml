@@ -3,8 +3,16 @@
     package="news.androidtv.bannerpack"
     android:installLocation="auto" >
 
+    <uses-feature
+        android:name="android.software.leanback"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+
     <application
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/icon"
+        android:banner="@drawable/banner"
         android:label="@string/theme_title" >
         
         <activity
