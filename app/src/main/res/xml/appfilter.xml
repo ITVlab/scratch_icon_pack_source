@@ -6,6 +6,6 @@
     <scale factor=".75" />
 
     <!-- Browser -->
-	<item component="ComponentInfo{com.android.browser/com.android.browser.BrowserActivity}" drawable="com_android_browser_browseractivity" />
-    <item component="ComponentInfo{com.google.android.browser/com.android.browser.BrowserActivity}" drawable="com_android_browser_browseractivity" />
+	<item component="ComponentInfo{com.android.browser/com.android.browser.BrowserActivity}" drawable="browser_chrome" banner="true" />
+    <item component="ComponentInfo{com.google.android.browser/com.android.browser.BrowserActivity}" drawable="browser_chrome" banner="true" />
 </resources>
