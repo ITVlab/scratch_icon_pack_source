@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:paddingStart="64dp"
+    android:paddingEnd="64dp"
+    android:paddingTop="32dp"
+    android:background="#333333"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:text="@string/theme_title"
+        android:textSize="28sp"
+        android:textColor="#ffffff"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:text="@string/developer_name"
+        android:textColor="#ffffff"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:textColor="#ffffff"
+        android:text="@string/developer_link"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="16dp"
+        android:textSize="14sp"
+        android:textColor="#ffffff"
+        android:text="@string/demo_explanation"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/banner_chrome"
+        android:layout_height="100dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="12sp"
+        android:text="Example of custom banner"
+        android:textStyle="italic"
+        android:alpha="0.7"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:layout_height="wrap_content" />
+</LinearLayout>

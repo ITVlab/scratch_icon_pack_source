@@ -20,6 +20,8 @@ import android.widget.ImageView;
 import java.util.ArrayList;
 import java.util.List;
 
+import news.androidtv.bannerpack.R;
+
 public class Icons extends Activity implements OnItemClickListener {
 
 	private static final String ACTION_ADW_PICK_ICON="org.adw.launcher.icons.ACTION_PICK_ICON";
